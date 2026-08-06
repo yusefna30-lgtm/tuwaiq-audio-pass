@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>همة طويق | Voice of Tuwaiq</title>
+    <style>
+        body {
+            background-color: #0b0b0b;
+            color: #d4af37;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .card {
+            border: 1px solid #222;
+            padding: 40px 25px;
+            border-radius: 16px;
+            background: #121212;
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.9);
+        }
+        h1 {
+            font-size: 1.3rem;
+            margin-bottom: 25px;
+            letter-spacing: 1px;
+            color: #ffffff;
+        }
+        .quote {
+            color: #d4af37;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+        .author {
+            font-size: 0.85rem;
+            color: #888;
+            margin-bottom: 30px;
+        }
+        audio {
+            width: 100%;
+            margin-top: 10px;
+            outline: none;
+            filter: invert(0.9) hue-rotate(180deg);
+        }
+        .footer-meta {
+            font-size: 0.75rem;
+            color: #444;
+            margin-top: 30px;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>صوت الهمة</h1>
+        <div class="quote">"همة السعوديين مثل جبل طويق، ولن تنكسر إلا إذا انهد هذا الجبل وسوي بالأرض"</div>
+        <div class="author">— الأمير محمد بن سلمان</div>
+        
+        <audio controls autoplay>
+            <source src="audio.mp3" type="audio/mpeg">
+            متصفحك لا يدعم تشغيل الصوت.
+        </audio>
+
+        <div class="footer-meta">
+            24.8719° N, 46.1431° E | AUTHENTICATED NFC PASS
+        </div>
+    </div>
+
+</body>
+</html>
